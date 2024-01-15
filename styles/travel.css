@@ -1,0 +1,117 @@
+/* Mulish font form google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;800&display=swap');
+
+*{
+    font-family: 'Mulish', sans-serif;
+}
+
+/* header style */
+
+header{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.king-container{
+    background: #FFF;  
+}
+
+.container{
+    display: flex;
+    gap: 10px;
+}
+.king-container p{
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+p span{
+    color: #FF5400;
+}
+.king-container{
+    display: flex;
+    justify-content: space-between;
+}
+.king-container ul{
+    display: flex;
+}
+.king-container li{
+    color: #424247;
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 400;
+    font-size: 1rem
+}
+li span{
+    color: #FF5400;
+}
+/* banner style */
+
+.banner{
+    background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    border-radius: 16px;
+    text-align: center; 
+    background-repeat: no-repeat;
+
+}
+
+.banner-content h1{
+    color: #FFF;
+    font-size: 4rem;
+    font-weight: 400px;
+}
+
+.banner-content p{
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.button-style{
+    padding: 48px 320px 122px 320px;
+    color: rgba(19, 19, 24, 0.50)
+    font-weight: 400;   
+}
+
+.button-style{
+    gap: 50px;
+    height: 52px;
+    flex-shrink: 0;
+}
+
+.btn-primary{
+    background: #FF5400;
+    border-radius: 8px;
+    width: 120px;
+    height: 40px;
+    
+}
+
+/* Popular-content style */
+
+.Popular-content{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+.Popular-content{
+    padding: 100px 0 0 0;
+}
+.tours-content h1{
+    color: #131318;
+    font-size: 40px
+    font-weight: 800;
+}
+
+.tours-content p{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+}
+.button-color{
+    width: 120px;
+    height: 40px;
+    background: #FF5400;
+}
+
+
+
