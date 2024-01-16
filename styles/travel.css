@@ -79,6 +79,7 @@ li span{
 }
 
 .btn-primary{
+    color: #FFF;
     background: #FF5400;
     border-radius: 8px;
     width: 120px;
@@ -108,10 +109,122 @@ li span{
     font-weight: 400;
 }
 .button-color{
+    color: #FFF;
     width: 120px;
     height: 40px;
     background: #FF5400;
 }
 
+/* main style start */
 
+.destination{
+    text-align: center;
+}
+.destination h1{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+.destination p{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+}
+   
+/* seven images style */
 
+.seven-img{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 40px 0 0 0;
+}   
+ /* chose us style */
+
+ .choose-items{
+    max-width: 1170px;
+    margin: 0 auto;
+ }
+ .small-content{
+    text-align: center;
+ }
+.small-content h3{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+.small-content p{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+}
+.two-option{
+    display: flex;
+   
+}
+
+.first-one{
+    width: 575px;
+    height: 200px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 0 48px 24px 0 ;
+
+}
+.second-one{
+    width: 575px;
+    height: 200px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding: 0 48px 24px 0 ;
+}
+.one-option{
+    width: 573px;
+    height: 200px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05); 
+}
+
+/* Deals & Discounts */
+
+.deals-discount{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.discount-title{
+    text-align: center;
+}
+.discount-title span{
+    color: #FF5400;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.tour-satarini-one{
+    background-image: url(../Images/Group\ 39.png);
+    width: 1170px;
+    height: 500px;
+    text-align: right;
+}
+
+.tour-satarini-two{
+    background-image: url(../Images/Group\ 40.png);
+    width: 1170px;
+    height: 500px;
+    text-align: left;
+}
+.tour-satarini-three{
+    background-image: url(../Images/Group\ 39.png);
+    width: 1170px;
+    height: 500px;
+    text-align: right;
+}
+.footer-btn{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 20px;
+    font-weight: 800;
+    
+}
