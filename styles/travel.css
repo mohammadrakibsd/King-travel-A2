@@ -195,6 +195,7 @@ li span{
 }
 .discount-title{
     text-align: center;
+   
 }
 .discount-title span{
     color: #FF5400;
@@ -226,5 +227,121 @@ li span{
     padding-top: 50px;
     font-size: 20px;
     font-weight: 800;
+}
+/* Simple Perfect Place  */
+
+.perfect-container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1170px;
+    margin: 0 auto;
+    padding-top: 100px;
+    gap: 28px;
+}
+
+.simple-place h1{
+    color: #131318;
+    width: 448px;
+    line-height: 26px;
+}
+.watch-bangladesh{
+    background-image: url(../Images/Rectangle\ 11.png);
+    width: 610px;
+    height: 424px;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+}
+    
+   
+.watch-bangladesh h2{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 700;
+    width: 276px;
+    text-align: center;
+}
+
+/* footer section */
+.Newsletter-image{
+    display: flex;
+    max-width: 1170px;
+    margin: 0 auto;
+    gap: 50px;
+}
+.travel-com{
+    border-radius: 16px;
+    background: #FF5400;
+    color: #FFF;
+    width: 250px;
+    height: 80px;  
+    padding: 35px;
+    transform: rotate(-19.628deg);
+    position: relative;
+    bottom: 100px; 
+}
+.travel-com h3{
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0;
+}
+.travel-com p{
+    font-size: 32px;
+    font-weight: 800;
+}
+.footer-column-one{
+    width: 474px;
+    height: 350px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding: 40px 41px
+    
+}
+.footer-column-one h2{
+    #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+.footer-column-one p{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+}
+.btn{
+    display: block;
+    margin-bottom: 16px;
+    width: 393px;
+    height: 52px;
+    text-align: left;
+}
+.footer-column-one span{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 800;
+    background: #FF5400;
+}
+
+/* footer style*/
+.moral-part h2{
+    color: #131318;
+    font-size: 32px;
+    font-weight: 800;
+}
+.moral-part h2 span{
+    color: #FF5400;
+}
+
+.footer-section{
+    width: 1440px;
+    height: 502px;
+    margin: 0 auto;
+    background: rgba(19, 19, 24, 0.05);
+    text-align: center;
+}
+
+.icon-section{
+    height: 24px;
+    gap: 23px;
+}
+.foot-er{
     
 }
